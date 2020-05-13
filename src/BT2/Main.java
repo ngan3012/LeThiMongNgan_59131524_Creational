@@ -14,7 +14,7 @@ public class Main {
         MyStringBuilder str = new MyStringBuilder.Builder()
                                 .addString("Thêm số thực: ")
                                 .addFloat((float)0.8)
-                                .addString(", Thêm boolean: ")
+                                .addString("Thêm boolean: ")
                                 .addBool(Boolean.TRUE)
                                 .Builder();
         System.out.println("\n" + str.toString());
